@@ -1,0 +1,7 @@
+package com.pjsdev.spring6webapp.repositories;
+
+import com.pjsdev.spring6webapp.domain.Book;
+import org.springframework.data.repository.CrudRepository;
+
+public interface BookRepository extends CrudRepository<Book, Long> {
+}
