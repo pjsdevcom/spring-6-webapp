@@ -49,6 +49,8 @@ public class BootstrapData implements CommandLineRunner {
 
         author1saved.getBooks().add(book1saved);
         author2saved.getBooks().add(book2saved);
+        book1saved.getAuthors().add(author1saved);
+        book2saved.getAuthors().add(author2saved);
 
         Publisher publisher = new Publisher();
         publisher.setPublisherName("Thorex Publishing");
